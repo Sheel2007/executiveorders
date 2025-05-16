@@ -10,20 +10,20 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <header className="bg-slate-50 border-b">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <Link href="/" className="text-xl font-bold">
+          <Link href="/executiveorders/" className="text-xl font-bold">
             Executive Orders Research
           </Link>
           <nav className="hidden md:flex space-x-6">
-            <Link href="/" className="font-medium">
+            <Link href="/executiveorders/" className="font-medium">
               Home
             </Link>
-            <Link href="/historical-data" className="text-slate-600 hover:text-slate-900">
+            <Link href="/executiveorders/historical-data" className="text-slate-600 hover:text-slate-900">
               Historical Data
             </Link>
-            <Link href="/case-studies" className="text-slate-600 hover:text-slate-900">
+            <Link href="/executiveorders/case-studies" className="text-slate-600 hover:text-slate-900">
               Case Studies
             </Link>
-            <Link href="/analysis" className="text-slate-600 hover:text-slate-900">
+            <Link href="/executiveorders/analysis" className="text-slate-600 hover:text-slate-900">
               Analysis
             </Link>
           </nav>
@@ -43,7 +43,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg">
-                <Link href="/historical-data">
+                <Link href="/executiveorders/historical-data">
                   View Graphs <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="mt-8 text-center">
               <Button asChild>
-                <Link href="/historical-data">
+                <Link href="/executiveorders/historical-data">
                   Explore Full Dataset <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
