@@ -12,31 +12,6 @@ import ExecutiveOrdersComparison from "@/components/executive-orders-comparison"
 export default function HistoricalData() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="bg-slate-50 border-b">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <Link href="/" className="text-xl font-bold">
-            Presidential Power Research
-          </Link>
-          <nav className="hidden md:flex space-x-6">
-            <Link href="/" className="text-slate-600 hover:text-slate-900">
-              Home
-            </Link>
-            <Link href="/historical-data" className="font-medium">
-              Historical Data
-            </Link>
-            <Link href="/case-studies" className="text-slate-600 hover:text-slate-900">
-              Case Studies
-            </Link>
-            <Link href="/analysis" className="text-slate-600 hover:text-slate-900">
-              Analysis
-            </Link>
-          </nav>
-          <Button variant="outline" className="md:hidden">
-            Menu
-          </Button>
-        </div>
-      </header>
-
       <main className="flex-1 py-12">
         <div className="container mx-auto px-4">
           <div className="mb-8">
@@ -167,7 +142,6 @@ export default function HistoricalData() {
           </div> */}
         </div>
       </main>
-
       <footer className="bg-slate-800 text-white py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-slate-300">
