@@ -14,20 +14,20 @@ export default function HistoricalData() {
     <div className="flex flex-col min-h-screen">
       <header className="bg-slate-50 border-b">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <Link href="/executiveorders/" className="text-xl font-bold">
+          <Link href="/" className="text-xl font-bold">
             Presidential Power Research
           </Link>
           <nav className="hidden md:flex space-x-6">
-            <Link href="/executiveorders/" className="text-slate-600 hover:text-slate-900">
+            <Link href="/" className="text-slate-600 hover:text-slate-900">
               Home
             </Link>
-            <Link href="/executiveorders/historical-data" className="font-medium">
+            <Link href="/historical-data" className="font-medium">
               Historical Data
             </Link>
-            <Link href="/executiveorders/case-studies" className="text-slate-600 hover:text-slate-900">
+            <Link href="/case-studies" className="text-slate-600 hover:text-slate-900">
               Case Studies
             </Link>
-            <Link href="/executiveorders/analysis" className="text-slate-600 hover:text-slate-900">
+            <Link href="/analysis" className="text-slate-600 hover:text-slate-900">
               Analysis
             </Link>
           </nav>
@@ -41,7 +41,7 @@ export default function HistoricalData() {
         <div className="container mx-auto px-4">
           <div className="mb-8">
             <Button asChild variant="ghost" size="sm" className="mb-4">
-              <Link href="/executiveorders/">
+              <Link href="/">
                 <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
               </Link>
             </Button>

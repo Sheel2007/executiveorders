@@ -10,11 +10,11 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <header className="bg-slate-50 border-b">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <Link href="/executiveorders/" className="text-xl font-bold">
+          <Link href="/" className="text-xl font-bold">
             Executive Orders Research
           </Link>
           <nav className="hidden md:flex space-x-6">
-            <Link href="/executiveorders/" className="font-medium">
+            <Link href="/" className="font-medium">
               Home
             </Link>
             <Link href="/historical-data" className="text-slate-600 hover:text-slate-900">
@@ -43,7 +43,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg">
-                <Link href="/executiveorders/historical-data">
+                <Link href="/historical-data">
                   View Graphs <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="mt-8 text-center">
               <Button asChild>
-                <Link href="/executiveorders/historical-data">
+                <Link href="/historical-data">
                   Explore Full Dataset <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
