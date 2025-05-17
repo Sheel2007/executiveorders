@@ -17,13 +17,13 @@ export default function Home() {
             <Link href="/executiveorders/" className="font-medium">
               Home
             </Link>
-            <Link href="/executiveorders/historical-data" className="text-slate-600 hover:text-slate-900">
+            <Link href="/historical-data" className="text-slate-600 hover:text-slate-900">
               Historical Data
             </Link>
-            <Link href="/executiveorders/case-studies" className="text-slate-600 hover:text-slate-900">
+            <Link href="/case-studies" className="text-slate-600 hover:text-slate-900">
               Case Studies
             </Link>
-            <Link href="/executiveorders/analysis" className="text-slate-600 hover:text-slate-900">
+            <Link href="/analysis" className="text-slate-600 hover:text-slate-900">
               Analysis
             </Link>
           </nav>
