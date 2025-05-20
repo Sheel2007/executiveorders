@@ -17,7 +17,7 @@ export default function Home() {
           <div className="container mx-auto px-0 md:px-4 text-center w-full">
             <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6">Executive Orders</h1>
             <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto mb-6 md:mb-8">
-              Investigating how presidents have used executive orders throughout history
+              How have presidents have used executive orders throughout history?
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg">

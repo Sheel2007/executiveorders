@@ -24,7 +24,7 @@ export default function RootLayout({
           <header className="bg-slate-50 border-b w-full m-0 p-0">
             <div className="container mx-auto px-4 py-6 flex justify-between items-center w-full m-0 p-0">
               <Link href="/" className="text-xl font-bold">
-                Executive Orders Research
+                Sheel Shah
               </Link>
               <nav className="hidden md:flex space-x-6">
                 <Link href="/" className="font-medium">
