@@ -127,7 +127,14 @@ export default function Home() {
             </div>
             <div>
               <div className="bg-slate-100 p-4 md:p-8 rounded-lg shadow-md max-w-2xl w-full">
-                <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-center">Data Sources</h2>
+                <div className="flex items-center justify-between mb-4 md:mb-6">
+                  <h2 className="text-2xl md:text-3xl font-bold m-0">Data Sources</h2>
+                  <Button asChild size="sm" className="ml-4">
+                    <Link href="/bibliography">
+                      See full bibliography
+                    </Link>
+                  </Button>
+                </div>
                 <div className="mb-4 md:mb-6">
                   <h3 className="font-semibold text-base md:text-lg mb-2">Primary Sources</h3>
                   <ul className="space-y-2 md:space-y-4 mb-4 md:mb-6">

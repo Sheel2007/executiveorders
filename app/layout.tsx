@@ -39,6 +39,9 @@ export default function RootLayout({
                 <Link href="/analysis" className="text-slate-600 hover:text-slate-900">
                   Analysis
                 </Link>
+                <Link href="/bibliography" className="text-slate-600 hover:text-slate-900">
+                  Bibliography
+                </Link>
               </nav>
               <Button variant="outline" className="md:hidden" onClick={() => setMenuOpen(true)}>
                 Menu
@@ -58,6 +61,9 @@ export default function RootLayout({
                     </Link>
                     <Link href="/analysis" className="text-slate-600 hover:text-slate-900" onClick={() => setMenuOpen(false)}>
                       Analysis
+                    </Link>
+                    <Link href="/bibliography" className="text-slate-600 hover:text-slate-900" onClick={() => setMenuOpen(false)}>
+                      Bibliography
                     </Link>
                   </nav>
                 </SheetContent>
